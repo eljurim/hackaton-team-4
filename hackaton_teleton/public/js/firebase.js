@@ -16,7 +16,7 @@
   //         var data = snap.val();
   //         return data;
   //     };
-
+// abreviacion de la ruta de la base de datos firebase
   var database = firebase.database();
 
   var someVar;
@@ -28,7 +28,7 @@
 
 });
 
-
+//esta es una funcion de prueba donde obtenemos el objeto en un punto del arbol de la base de datos de firebase
   console.log(someVar);
 
   let someReference = firebase.database().ref('tiempo-acumulado/123jhk123/Regiones/Chihuahua/')
@@ -36,6 +36,22 @@
     console.log(snapshot.val())
   });
 
+// firebase.database().ref('tiempo-acumulado/').once('value', function(snap){
+//   console.log('Iteracion');
+//   console.log(snap.val());
+// })
+
+//este iterador navegara a traves de cada uno de los hijos de la ruta que coloquemos en ref en el primer nivel
+function iterativaOnce(obj) {
+  console.log("iteracion");
+  console.log(obj.val());
+  obj.forEach(function(objDos){
+    console.log("Iterador Interno");
+    console.log(objDos.val());
+  });
+}
+
+firebase.database().ref('tiempo-acumulado/').on('value', iterativaOnce)
 
 
 
