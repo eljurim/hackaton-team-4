@@ -1,0 +1,52 @@
+body {
+  width: 100vw;
+  background: #2d1b47;
+}
+
+svg {
+  fill: #492C73;
+}
+
+a:hover>path {
+  fill: #fad206;
+}
+
+a>text {
+  fill: white;
+}
+
+.bar-wrapper {
+  height: 500px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  fill: #2d1b47;
+  width: 505px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+img#exterior {
+  width: 510px;
+  left: -3px;
+  bottom: -3px;
+}
+
+.fill-1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  /* position: absolute; */
+  height: 000px;
+  width: 504px;
+  transition: all 60s;
+  background-color: rgba(250, 210, 6, 1);
+}
+
+.fill-1:hover {
+  height: 450px;
+}
