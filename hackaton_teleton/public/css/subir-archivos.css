@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    background-color: #5c2a62;
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    padding: 25px  ;
+    width: 60%;
+    height: 400px;
+    background: #9b539c;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 5px;
+}
+
+form {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton {
+    margin-left: 25px;
+}
+
+button {
+    display: block;
+    background: #9fc84e;
+    border-radius: 15px;
+    color: #ffffff;
+    width: 100px;
+    padding: 15px;
+    
+}
