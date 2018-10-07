@@ -3,6 +3,9 @@ body {
   background: #2d1b47;
 }
 
+.container *{
+  color: yellow;
+}
 svg {
   fill: #492C73;
 }
