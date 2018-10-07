@@ -25,6 +25,7 @@
     var someVar = snap.val();
     // console.log(someVar);
     document.getElementById("donaciones").style.height = someVar + "px";
+    document.getElementsByClassName("corazon").innerHTML = "Paragraph changed!";
 
   });
 
@@ -97,6 +98,19 @@
 
   });
 
+/*funcionalidad de flip para la tarjeta */
+  document.querySelector(".card-flip").classList.toggle("flip");
+
+  /*
+   * Holder.js for demo image
+   * Just for demo purpose
+   */
+  Holder.addTheme('gray', {
+    bg: '#777',
+    fg: 'rgba(255,255,255,.75)',
+    font: 'Helvetica',
+    fontweight: 'normal'
+  });
 
   // firebase.database().ref('/hackathon-teleton/tiempo-acumulado/123jhk123/Regiones/Chihuahua/').once('value').then(function(snap) {
   //   return snap.val();
