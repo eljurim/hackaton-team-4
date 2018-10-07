@@ -1,0 +1,66 @@
+{
+  "tiempo-acumulado" : {
+    "123jhk123" : {
+      "Regiones" : {
+        "Chihuahua" : {
+          "montoBanamex" : 200,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        },
+        "Durango" : {
+          "montoBanamex" : 8536855,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        },
+        "Zacatecas" : {
+          "montoBanamex" : 8536855,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        }
+      },
+      "fecha" : "2018/09/10",
+      "hora" : "15:45",
+      "montoRepublica" : 546513216565
+    },
+    "127387123ihkjn" : {
+      "Regiones" : {
+        "Chihuahua" : {
+          "montoBanamex" : 8536855,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        },
+        "Durango" : {
+          "montoBanamex" : 8536855,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        },
+        "Zacatecas" : {
+          "montoBanamex" : 8536855,
+          "montoFarmacias" : 51455,
+          "montoSoriana" : 8557754651,
+          "montoTelcel" : 586558,
+          "montoTelecom" : 85588,
+          "montoTelmex" : 12356
+        }
+      },
+      "fecha" : "2018/09/10",
+      "hora" : "16:00",
+      "montoRepublica" : 546513216565
+    }
+  }
+}
