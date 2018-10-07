@@ -98,19 +98,19 @@
 
   });
 
-/*funcionalidad de flip para la tarjeta */
-  document.querySelector(".card-flip").classList.toggle("flip");
 
-  /*
-   * Holder.js for demo image
-   * Just for demo purpose
-   */
-  Holder.addTheme('gray', {
-    bg: '#777',
-    fg: 'rgba(255,255,255,.75)',
-    font: 'Helvetica',
-    fontweight: 'normal'
-  });
+ $(document).ready(function(){
+   $(".perspective").click( function(event){
+     $(".card-holder").addClass("rotor")
+   });
+   $(".brand-wrapper-back").click( function(event){
+     $(".card-holder").removeClass("rotor")
+   });
+
+
+ })
+
+
 
   // firebase.database().ref('/hackathon-teleton/tiempo-acumulado/123jhk123/Regiones/Chihuahua/').once('value').then(function(snap) {
   //   return snap.val();
