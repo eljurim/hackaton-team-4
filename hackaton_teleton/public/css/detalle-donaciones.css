@@ -16,8 +16,12 @@ body {
     margin-bottom: 1.3%;
 }
 
-.titulos h4 h5 {
+.titulos h4  {
     margin-bottom: 2.5%;
+}
+
+h5 {
+color: #fad206;
 }
 
 .container-info {
